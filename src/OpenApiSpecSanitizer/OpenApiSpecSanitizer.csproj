@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>   
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>openapi-spec-sanitizer</AssemblyName>
+    <RootNamespace>OpenApiSpecSanitizer</RootNamespace>
+    <Version>1.0.0</Version>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>openapi-spec-sanitizer</ToolCommandName>
+    <PackageId>OpenApiSpecSanitizer</PackageId>
+    <Description>Detect and sanitize unused Swagger and OpenAPI components.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+  </ItemGroup>
+</Project>

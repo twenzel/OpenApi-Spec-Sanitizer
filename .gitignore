@@ -6,3 +6,12 @@ dist/
 *.san.yaml
 *.egg-info/
 __pycache__/
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+.tools/
+*.san.json
+*.san.yml
+.vs/
+*.user
