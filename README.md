@@ -1,8 +1,24 @@
 # openapi-spec-sanitizer
 
+[![NuGet](https://img.shields.io/nuget/v/OpenApiSpecSanitizer.svg)](https://nuget.org/packages/OpenApiSpecSanitizer)
+[![License](https://img.shields.io/badge/license-apache%202-blue)](LICENSE)
+[![Build Status](https://github.com/twenzel/OpenApi-Spec-Sanitizer/actions/workflows/dotnet.yaml/badge.svg)](https://github.com/twenzel/OpenApi-Spec-Sanitizer/actions/workflows/dotnet.yaml)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=security_rating)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=bugs)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=twenzel_OpenApi-Spec-Sanitizer&metric=coverage)](https://sonarcloud.io/dashboard?id=twenzel_OpenApi-Spec-Sanitizer)
+
+
 A C# 10 console application and reusable API that detects unused and undefined
 components in Swagger 2.0 and OpenAPI 3.x YAML or JSON specifications.
 Converted from https://github.com/DavidTurland/openapi-spec-sanitizer.
+
+## Install
+
+> &gt; dotnet add package OpenApiSpecSanitizer
 
 ## Build and run
 
@@ -114,3 +130,5 @@ and historical expected counts are not part of the default suite.
 `tests/api-with-examples.yaml` is a snapshot of an
 [OpenAPI Initiative example](https://github.com/OAI/OpenAPI-Specification).
 Copyright David Turland 2023. [Apache License 2.0](LICENSE-2.0.txt).
+
+Openapi Icon by John Gardner on <a href="https://icon-icons.com/authors/832-john-gardner">Icon-Icons.com</a>

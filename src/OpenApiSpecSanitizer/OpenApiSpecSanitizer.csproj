@@ -7,13 +7,30 @@
     <AssemblyName>openapi-spec-sanitizer</AssemblyName>
     <RootNamespace>OpenApiSpecSanitizer</RootNamespace>
     <Version>1.0.0</Version>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackAsTool>true</PackAsTool>
+    <PackageTags>openapi swagger sanitize</PackageTags>
     <ToolCommandName>openapi-spec-sanitizer</ToolCommandName>
     <PackageId>OpenApiSpecSanitizer</PackageId>
     <Description>Detect and sanitize unused Swagger and OpenAPI components.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/twenzel/OpenApi-Spec-Sanitizer</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/twenzel/OpenApi-Spec-Sanitizer</RepositoryUrl>
+	<RepositoryType>github</RepositoryType>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    <PackageReference Include="YamlDotNet" Version="18.1.0" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <None Include="icon.png" Pack="true" Visible="false" PackagePath="\" />
+     <None Include="../../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
